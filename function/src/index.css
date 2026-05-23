@@ -1,0 +1,78 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+#head{
+    margin:30px;
+}
+body{
+    font-family: cursive;
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    background-color: rgb(0, 0, 0);
+    color:white;
+}
+form{
+    height: 350px;
+    border: 2px solid white;
+    margin-top:30px;
+    margin-left: 30px;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+form #first{
+    font-family: cursive;
+    border: 2px solid white;
+    height: 40px;
+    width: 364px;
+    border-radius: 8px;
+    font-size: 20px;
+    background-color: black;
+    color: white;
+
+}
+button{
+    height: 40px;
+    width: auto;
+    text-align: center;
+    font-family: cursive;
+}
+
+form textarea{
+    font-family: cursive;
+    height: 150px;
+    border-radius: 10px;
+    padding-bottom: 96px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background-color: black;
+    color:white;
+    border: 2px solid white;
+}
+ textarea::-webkit-scrollbar{
+    display: none;
+}
+
+ .main{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+.output{
+    margin-left:190px;
+  width: 300px;
+  padding: 20px;
+  border: 1px solid rgb(247, 247, 247);
+  border-radius: 10px;
+}
+.icon{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
